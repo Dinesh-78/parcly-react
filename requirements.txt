@@ -1,0 +1,16 @@
+user profile -- > product select 
+
+Details:
+ transfer name :
+ transfer number:
+ transfer location:
+ transfer address:
+product details:
+  product type:
+  product name: 
+  product weight:
+
+
+driver  --> product pickup
+
+pickup profile --> taking parcel
