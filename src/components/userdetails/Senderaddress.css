@@ -1,0 +1,91 @@
+/* Global styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styling */
+  .sender-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+  }
+  
+  /* Card styling */
+  .sender-card {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    transition: max-width 0.3s ease-in-out;
+  }
+  
+  @media (min-width: 768px) {
+    .sender-card {
+      max-width: 500px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .sender-card {
+      max-width: 600px;
+    }
+  }
+  
+  /* Icon styling */
+  .sender-icon {
+    color: #2563eb;
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .sender-icon {
+      font-size: 3rem;
+    }
+  }
+  
+  /* Text styling */
+  .sender-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4b5563;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  @media (min-width: 768px) {
+    .sender-text {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Button styling */
+  .sender-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sender-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  @media (min-width: 768px) {
+    .sender-button {
+      font-size: 1rem;
+    }
+  }
+  

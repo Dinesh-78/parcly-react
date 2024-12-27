@@ -1,12 +1,11 @@
 import React from 'react'
-import Transferdetails from './components/transferdetails'
-import SenderAddress from './components/userdetails/SenderAddress'
+
+import Usermain from './components/userdetails/Usermain'
 
 const App = () => {
   return (
     <div>
-      <Transferdetails />
-      <SenderAddress />
+      <Usermain />
       </div>
 
   )

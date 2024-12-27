@@ -1,0 +1,34 @@
+/* Global container */
+.usermain-container {
+    display: flex;
+    flex-direction: column;
+   
+    min-height: 100vh;
+    background-color: #f9fafb;
+  }
+  
+  /* Header styling */
+  .usermain-header {
+    background-color: #f3f4f6;
+    padding: 24px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .usermain-header p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111827;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .usermain-header p {
+      font-size: 2rem;
+    }
+  }
+  
