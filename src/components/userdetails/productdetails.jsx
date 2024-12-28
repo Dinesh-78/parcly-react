@@ -47,7 +47,7 @@ const Productdetails = () => {
         fullWidth
       />
 
-      <FormControl fullWidth>
+     
         <InputLabel id="product-category-label">Product Category</InputLabel>
         <Select
           labelId="product-category-label"
@@ -61,7 +61,7 @@ const Productdetails = () => {
           <MenuItem value="Electronics">Electronics</MenuItem>
           <MenuItem value="Others">Others</MenuItem>
         </Select>
-      </FormControl>
+     
 
       <TextField
         label="Weight (kg)"
